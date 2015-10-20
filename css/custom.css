@@ -1,0 +1,43 @@
+/*
+    Custom stylesheet for Tom Butterworth portfolio
+*/
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 24px;
+}
+@media only screen and (max-width : 600px) {
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width : 992px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
+.parallax-container {
+    height: 300px;
+}
+
+footer.page-footer {
+    background-color: darkslategray;
+}
