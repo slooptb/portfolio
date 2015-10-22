@@ -21,6 +21,13 @@ h3 {
     font-size: 24px;
 }
 
+.page-footer a {
+    color: #84ffff;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
 @media only screen and (max-width : 600px) {
 
     h1 {
@@ -49,3 +56,4 @@ h3 {
 footer.page-footer {
     background-color: darkslategray;
 }
+
