@@ -5,20 +5,26 @@
 * {
     font-family: 'Raleway', sans-serif;
 }
+
+/* Default headers */
 h1 {
     font-size: 48px;
+    text-transform: uppercase;
 }
 
 h2 {
     font-size: 24px;
+    text-transform: uppercase;
 }
+
 h3 {
     font-size: 24px;
 }
+
 @media only screen and (max-width : 600px) {
+
     h1 {
         font-size: 24px;
-        text-align: center;
     }
 
     h2 {
@@ -26,6 +32,7 @@ h3 {
     }
 }
 @media only screen and (max-width : 992px) {
+
     h1 {
         font-size: 36px;
     }
@@ -34,6 +41,7 @@ h3 {
         font-size: 18px;
     }
 }
+
 .parallax-container {
     height: 300px;
 }
